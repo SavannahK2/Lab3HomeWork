@@ -28,7 +28,7 @@ public class PaintJob {
         hoursOfLabor = getLabor(gallonOfPaint);
         System.out.println("Hours of Labor" + hoursOfLabor);
         costOfPaint = getCostOfPaint(gallonOfPaint);
-        System.out.println("cost of paint in main" + costOfPaint);
+        System.out.println("Cost of paint" + costOfPaint);
 
         //Ending display help
         laborCharges = getLaborCharges(hoursOfLabor);
